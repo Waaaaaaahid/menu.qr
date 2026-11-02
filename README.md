@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MenuQR — Full-Stack Restaurant Digital QR Menu SaaS
 
 **MenuQR** is a production-quality, multi-tenant digital restaurant menu and contactless table-ordering SaaS platform.
@@ -178,3 +179,6 @@ Expected output:
 
 ## 📄 License
 MIT License. Built for modern restaurant hospitality.
+=======
+# menuqr
+>>>>>>> 049dde24af2c10923e5e636bd7a37db34d3c24eb
