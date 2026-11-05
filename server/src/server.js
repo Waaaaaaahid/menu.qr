@@ -21,6 +21,10 @@ import publicRoutes from './routes/publicRoutes.js';
 
 dotenv.config();
 
+if (!process.env.JWT_SECRET) {
+  throw new Error('JWT_SECRET must be set in server/.env before starting the server.');
+}
+
 const app = express();
 const server = http.createServer(app);
 

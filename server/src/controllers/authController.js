@@ -5,7 +5,7 @@ import Restaurant from '../models/Restaurant.js';
 const generateToken = (id) => {
   return jwt.sign(
     { id },
-    process.env.JWT_SECRET || 'menuqr_super_secret_jwt_key_2026',
+    process.env.JWT_SECRET,
     {
       expiresIn: process.env.JWT_EXPIRES_IN || '30d',
     }

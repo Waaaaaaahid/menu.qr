@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # MenuQR — Full-Stack Restaurant Digital QR Menu SaaS
 
 **MenuQR** is a production-quality, multi-tenant digital restaurant menu and contactless table-ordering SaaS platform.
@@ -134,7 +133,7 @@ npm run client:dev
 ```env
 PORT=5000
 MONGODB_URI=mongodb://127.0.0.1:27017/menuqr
-JWT_SECRET=menuqr_super_secure_production_secret_key_2026_xyz
+JWT_SECRET=replace-with-a-long-random-secret
 JWT_EXPIRES_IN=30d
 CLIENT_URL=http://localhost:5173
 
@@ -143,6 +142,7 @@ CLIENT_URL=http://localhost:5173
 # CLOUDINARY_API_KEY=your_api_key
 # CLOUDINARY_API_SECRET=your_api_secret
 ```
+Replace the `JWT_SECRET` placeholder with a long, randomly generated value before starting the server.
 
 ---
 
@@ -179,6 +179,3 @@ Expected output:
 
 ## 📄 License
 MIT License. Built for modern restaurant hospitality.
-=======
-# menuqr
->>>>>>> 049dde24af2c10923e5e636bd7a37db34d3c24eb
